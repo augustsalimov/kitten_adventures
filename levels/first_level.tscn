@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpspu420m5poh"]
+
+[ext_resource type="PackedScene" uid="uid://bhbmgihu4uexl" path="res://characters/player_cat.tscn" id="1_evg32"]
+[ext_resource type="Script" path="res://characters/player_cat.gd" id="2_3etvn"]
+
+[node name="first_level" type="Node2D"]
+
+[node name="PlayerCat" parent="." instance=ExtResource("1_evg32")]
+position = Vector2(194, 120)
+script = ExtResource("2_3etvn")
