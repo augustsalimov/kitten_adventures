@@ -8,3 +8,4 @@
 [node name="PlayerCat" parent="." instance=ExtResource("1_evg32")]
 position = Vector2(194, 120)
 script = ExtResource("2_3etvn")
+starting_direction = Vector2(2.08165e-12, 1)
